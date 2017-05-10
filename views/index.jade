@@ -1,5 +1,17 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  h1 FCC Url Shortener Microservice
+  h3 Example Link Creation:
+  code #{url}/api/http://google.com
+  
+  h3 Example Link Creation Output:
+  code {"url":"#{url}/api/0"}
+  
+  h3 Example Usage:
+  code #{url}/api/0
+  
+  h3 Example Redirects to:
+  code http://google.com
+  
+  
